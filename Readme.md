@@ -54,7 +54,7 @@ npm install
 
 ```plaintext
 mongoDbURL = <Your MongoDB Connection String>
-PORT = 8080
+PORT = <enter the port number>
 ```
 
 4. Start the server:
@@ -64,6 +64,8 @@ npm run dev
 ```
 
 ## API Endpoints
+
+- base url http://127.0.0.1:<PORT>
 
 | Method | Endpoint | Description             |
 | ------ | -------- | ----------------------- |
@@ -75,4 +77,4 @@ npm run dev
 
 ## Deployment
 
-The app is deployed using Render. Access it here: [Recipes App]()
+The app is deployed using Render. Access it here: [Recipes App](https://recipesapp-oc69.onrender.com)
